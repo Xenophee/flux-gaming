@@ -1,0 +1,92 @@
+
+
+
+
+
+/* ================================================================================================================================= */
+/* --------------------------------------------------------------------------------------------------------------------------------- */
+/* NAVIGATION PRINCIPALE */
+
+.navbar {
+    background-color: var(--special-dark-color);
+    border-top: var(--border-special-solid);
+    border-bottom: var(--border-special-solid);
+}
+
+.nav-link {
+    color: var(--light-font);
+}
+
+.main-nav .nav-item {
+    border-right: var(--border-special-solid);
+}
+
+.nav-link:hover {
+    color: var(--first-color);
+    border-top: var(--border-first-solid);
+    border-bottom: var(--border-first-solid);
+}
+
+.nav-link.active {
+    background-color: var(--special-color);
+    border: var(--border-special-solid);
+    box-shadow: var(--nav-shadow);
+    color: var(--light-font) !important;
+}
+
+.nav-link.active:hover {
+    color: var(--first-color);
+    border-top: var(--border-first-solid);
+    border-bottom: var(--border-first-solid);
+}
+
+#offcanvasDarkNavbar {
+    background-color: var(--special-dark-color);
+    color: var(--light-font);
+}
+
+
+
+/* ================================================================================================================================= */
+/* --------------------------------------------------------------------------------------------------------------------------------- */
+/* PAGINATION */
+
+.page-link {
+    background-color: var(--special-color);
+    border: var(--border-second-solid);
+    color: var(--light-font);
+}
+
+.page-link:hover {
+    background-color: var(--special-dark-color);
+    border: var(--border-second-solid);
+    color: var(--light-font);
+}
+
+.page-link.active {
+    background-color: var(--special-dark-color);
+    border: var(--border-second-solid);
+    color: var(--light-font);
+}
+
+
+/* ================================================================================================================================= */
+/* --------------------------------------------------------------------------------------------------------------------------------- */
+/* FOOTER */
+
+footer .container {
+    background-color: var(--special-dark-color);
+    color: var(--light-font);
+}
+
+footer a {
+    color: var(--light-font);
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer hr {
+    width: 75%;
+}

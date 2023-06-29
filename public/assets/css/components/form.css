@@ -1,0 +1,47 @@
+
+
+legend {
+    font-family: var(--special-font);
+}
+
+
+fieldset {
+    background-color: var(--first-color);
+    border-radius: 30px;
+    border: var(--big-border-first-solid);
+    box-shadow: var(--box-light-shadow);
+}
+
+fieldset small {
+    font-weight: bold;
+}
+
+.info {
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 0.8rem;
+}
+
+
+/* ================================================================================================================================= */
+/* --------------------------------------------------------------------------------------------------------------------------------- */
+/* SPÉCIFIQUE */
+
+
+.form-check-input {
+    border: var(--border-special-dark-tiny-solid);
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-top: 0;
+}
+
+.form-check-input:checked {
+    background-color: var(--special-color);
+    box-shadow: var(--form-shadow);
+    border: var(--border-special-dark-tiny-solid);
+}
+
+.form-check-input:focus {
+    box-shadow: var(--form-shadow);
+    border: var(--border-special-dark-tiny-solid);
+}

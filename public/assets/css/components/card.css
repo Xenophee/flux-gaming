@@ -1,0 +1,43 @@
+
+
+.card {
+    position: relative;
+    height: 100%;
+    background-color: var(--first-color);
+    color: var(--dark-font);
+    border: var(--border-special-solid);
+    box-shadow: var(--box-shadow);
+}
+
+.card small {
+    width: 30%;
+    border-bottom: var(--border-special-dark-solid);
+}
+
+
+.littleLink {
+    position: absolute;
+    width: 80%;
+    transform: translate(-50%, -50%);
+    top: 100%;
+    left: 50%;
+}
+
+
+/* ================================================================================================================================= */
+/* --------------------------------------------------------------------------------------------------------------------------------- */
+/* RESPONSIVE */
+
+@media (min-width: 768px) and (max-width: 1200px)  {
+
+    .littleLink {
+        width: 60%;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .littleLink {
+        width: 55%;
+    }
+}

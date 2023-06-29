@@ -1,0 +1,110 @@
+
+
+/* ================================================================================================================================= */
+/* --------------------------------------------------------------------------------------------------------------------------------- */
+/* DERNIERS ARTICLES */
+
+.mainLink, .mediumLink {
+    position: relative;
+}
+
+.mainLink img {
+    height: 424px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.mediumLink img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.divText {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    background-color: var(--special-dark-filter-color);
+    color: var(--light-font);
+}
+
+.mediumLink h3 {
+    font-size: 1.1rem;
+}
+
+.mainLink small, .mediumLink small {
+    width: 30%;
+    border-top: var(--border-first-solid);
+}
+
+.divText p {
+    border-left: var(--border-first-solid);;
+}
+
+
+/* ================================================================================================================================= */
+/* --------------------------------------------------------------------------------------------------------------------------------- */
+/* PARTIE TEST */
+
+.lastTest {
+    background-color: var(--first-color);
+    border: var(--border-special-dark-solid);
+    box-shadow: var(--box-shadow);
+}
+
+.mainElement {
+    width: 100%;
+    border-right: var(--border-special-dark-solid);
+}
+
+.lastTest img {
+    object-fit: cover;
+}
+
+.lastTest small {
+    width: 100%;
+    border-top: var(--border-special-dark-solid);
+}
+
+.lastTestLink {
+    width: 100%;
+}
+
+
+/* ================================================================================================================================= */
+/* --------------------------------------------------------------------------------------------------------------------------------- */
+/* RESPONSIVE */
+
+
+@media (min-width: 768px) and (max-width: 1200px)  {
+
+    .lastTest small {
+        width: 30%;
+    }
+
+    .lastTestLink {
+        width: 30%;
+    }
+}
+
+
+@media (min-width: 1200px) {
+
+    .mainElement {
+        width: 60%;
+    }
+
+    .lastTest small {
+        width: 30%;
+    }
+
+    .lastTestText {
+        width: 40%;
+    }
+
+    .lastTestLink {
+        width: 35%;
+    }
+}

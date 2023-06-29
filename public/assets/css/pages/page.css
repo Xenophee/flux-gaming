@@ -1,0 +1,55 @@
+
+.subjectImg {
+    height: 55vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+.firstArticle {
+    border-top: var(--border-special-dark-solid);;
+    border-bottom: var(--border-special-dark-solid);
+}
+
+.firstArticle h2 {
+    color: var(--light-font);
+}
+
+.firstArticle img {
+    object-fit: cover;
+}
+
+.date {
+    width: 50%;
+    border-bottom: var(--border-special-dark-solid);;
+}
+
+.firstLink {
+    width: 100%;
+}
+
+.firstArticle .btn {
+    width: 90%;
+}
+
+
+/* ================================================================================================================================= */
+/* --------------------------------------------------------------------------------------------------------------------------------- */
+/* RESPONSIVE */
+
+@media (min-width: 768px) and (max-width: 1200px)  {
+
+    .subjectImg {
+        height: 35vh;
+    }
+
+    .firstArticle .btn {
+        width: 35%;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .firstArticle .btn {
+        width: 25%;
+    }
+}

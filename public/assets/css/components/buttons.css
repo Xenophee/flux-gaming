@@ -1,0 +1,15 @@
+
+
+.btn {
+    background-color: var(--special-color);
+    color: var(--light-font);
+    border: var(--border-light);
+    box-shadow: var(--box-shadow);
+}
+
+.btn:hover {
+    background-color: var(--special-dark-color);
+    color: var(--light-font);
+    border: var(--border-light);
+}
+

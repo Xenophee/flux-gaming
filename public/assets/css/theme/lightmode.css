@@ -1,0 +1,32 @@
+:root {
+    
+    --first-color: #FEE440;
+    --second-color: #fcf5c8;
+
+    --special-color: #7A7AC4;
+    --special-dark-color: #222255;
+
+    --light-font: white;
+    --dark-font: #0d0d3b;
+
+    --special-dark-filter-color: #22225580;
+
+    --border-first-solid: 2px solid #FEE440;
+    --border-second-solid: 1px solid #fcf5c8;
+    --border-special-solid: 2px solid #7A7AC4;
+    --border-special-dark-solid: 2px solid #222255;
+
+    --border-special-dark-tiny-solid: 1px solid #222255;
+    --border-hr: 5px solid #222255;
+
+    --border-light: 2px solid white;
+
+    --special-font: 'Kanit', sans-serif;
+    --main-font: 'Noto Serif', serif;
+
+    --box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    --nav-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    --form-shadow: #7A7AC4 0 0 4px;
+
+    --background: url(../img/background/light.jpg);
+}

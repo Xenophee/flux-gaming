@@ -1,0 +1,32 @@
+:root {
+
+    --first-color: #222255;
+    --second-color: #2f2f3a;
+
+    --special-color: #f8e775;
+    --special-dark-color: #ffde09;
+
+    --light-font: #0d0d3b;
+    --dark-font: white;
+
+    --special-dark-filter-color: #fee54080;
+
+    --border-first-solid: 2px solid #222255;
+    --border-second-solid: 1px solid #7A7AC4;
+    --border-special-solid: 2px solid #f8e775;
+    --border-special-dark-solid: 2px solid #ffde09;
+
+    --border-special-dark-tiny-solid: 1px solid #ffde09;
+    --border-hr: 5px solid #ffde09;
+
+    --border-light: 2px solid #0d0d3b;
+
+    --special-font: 'Kanit', sans-serif;
+    --main-font: 'Noto Serif', serif;
+
+    --box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    --form-shadow: #7A7AC4 0 0 4px;
+
+    --background: url(../img/background/dark.jpg);
+}
+
