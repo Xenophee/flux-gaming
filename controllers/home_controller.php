@@ -10,8 +10,6 @@ try {
 
 
 
-    var_dump($subjects);
-
 
 } catch (\Throwable $th) {
     include_once(__DIR__ . '/../views/templates/header.php');
