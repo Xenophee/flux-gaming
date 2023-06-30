@@ -14,6 +14,11 @@ try {
     $flux = intval(filter_input(INPUT_GET, 'flux', FILTER_SANITIZE_NUMBER_INT));
 
     // ---------------------------------------------------------------------------------
+    // Informations contenu dans le head
+    $document = 'Flux-Gaming - Actualités ' . $subjects[$flux]->title;
+    $meta = $subjects[$flux]->meta_description;
+
+    // ---------------------------------------------------------------------------------
     // Utilisation de la méthode extractXml() de la classe Subject pour récupérer les données à afficher
     $items = $subjects[$flux]->extractXml($subjects[$flux]->link, $articles);
 

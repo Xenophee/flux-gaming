@@ -8,7 +8,7 @@ body, main {
 .siteTitle {
     font-family: var(--special-font);
     color: var(--special-dark-color);
-    font-size: 2.6rem;
+    font-size: 2rem;
 }
 
 h1, h2, h3, h4, h5, h6 {

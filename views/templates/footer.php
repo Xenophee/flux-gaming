@@ -17,7 +17,7 @@
         </div>
     </footer>
 
-    <script src="./public/assets/js/bootstrap.bundle.min.js"></script>
+    <script src="../public/assets/js/bootstrap.bundle.min.js"></script>
     <script src="<?= $js ?? '' ?>"></script>
 </body>
 

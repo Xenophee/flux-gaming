@@ -39,7 +39,7 @@ class Subject
         // Récupération, formatage de la date en français et ajout au fichier XML sans écraser la balise d'origine
         foreach ($items as $key => $item) {
             $date = $item->children('dc', true)->date;
-            $date = date("d / m / Y ", (strtotime($date)));
+            $date = date("d/m/Y", (strtotime($date)));
             $item->addChild('date', $date);
         }
         // ----------------------------------------------------------------

@@ -46,5 +46,6 @@ main .container {
     background-color: var(--second-color);
     border-right: var(--border-special-dark-solid);
     border-left: var(--border-special-dark-solid);
+    min-height: 70vh;
 }
 

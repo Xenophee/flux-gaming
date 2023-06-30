@@ -14,6 +14,11 @@ try {
     $js = JS[1];
 
     // ---------------------------------------------------------------------------------
+    // Informations contenu dans le head
+    $document = 'Flux-Gaming - Paramètres';
+    $meta = 'Choisissez vos paramètres d\'affichage du site pour rester informé des dernières actualités de manière optimale pour vous !';
+
+    // ---------------------------------------------------------------------------------
     // Préparation du tableau d'erreur en vu de la vérification du formulaire
     $error = [];
 
