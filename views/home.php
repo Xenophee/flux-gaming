@@ -64,7 +64,7 @@
 
         <!-- SECTION AVEC LA SUITE DES ARTICLES -->
         <section>
-            <div class="row mx-3">
+            <div class="row mx-3 pb-xl-5 mb-xl-5">
                 <?php foreach ($secondPart as $key => $item) { ?>
                     <div class="col-12 col-md-6 col-xl-3 mb-5 mb-xl-0">
                         <article class="card">
@@ -79,23 +79,6 @@
                     </div>
                 <?php } ?>
 
-                <nav aria-label="Page navigation example">
-                    <ul class="pagination d-flex justify-content-center mt-4 pt-xl-5 mt-xl-5">
-                        <li class="page-item">
-                            <a class="page-link" href="#" aria-label="Previous">
-                                <span aria-hidden="true">&laquo;</span>
-                            </a>
-                        </li>
-                        <li class="page-item"><a class="page-link active" href="#">1</a></li>
-                        <li class="page-item"><a class="page-link" href="#">2</a></li>
-                        <li class="page-item"><a class="page-link" href="#">3</a></li>
-                        <li class="page-item">
-                            <a class="page-link" href="#" aria-label="Next">
-                                <span aria-hidden="true">&raquo;</span>
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
             </div>
         </section>
 
@@ -106,7 +89,7 @@
         <!-- PARTIE TESTS -->
         <section>
             <h2 class="text-center py-3 py-md-0 mb-5"><span class="px-md-5">Les derniers tests</span></h2>
-            <div class="row pt-xl-5 mx-3">
+            <div class="row pt-xl-5 mb-xl-5 mx-3">
 
                 <?php foreach ($secondSection as $key => $item) { ?>
                     <div class="col-12 mb-4">
@@ -125,24 +108,6 @@
                         </article>
                     </div>
                 <?php } ?>
-
-                <nav aria-label="Page navigation example">
-                    <ul class="pagination d-flex justify-content-center mt-4 pt-xl-5 mt-xl-3">
-                        <li class="page-item">
-                            <a class="page-link" href="#" aria-label="Previous">
-                                <span aria-hidden="true">&laquo;</span>
-                            </a>
-                        </li>
-                        <li class="page-item"><a class="page-link active" href="#">1</a></li>
-                        <li class="page-item"><a class="page-link" href="#">2</a></li>
-                        <li class="page-item"><a class="page-link" href="#">3</a></li>
-                        <li class="page-item">
-                            <a class="page-link" href="#" aria-label="Next">
-                                <span aria-hidden="true">&raquo;</span>
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
 
             </div>
         </section>
