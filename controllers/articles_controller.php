@@ -14,6 +14,12 @@ try {
     $flux = intval(filter_input(INPUT_GET, 'flux', FILTER_SANITIZE_NUMBER_INT));
 
     // ---------------------------------------------------------------------------------
+    // Sécurisation de la page dans le cas d'un flux inexact
+    if ($flux < 0 || $flux > count($subjects) -1) {
+        throw new Exception();
+    }
+
+    // ---------------------------------------------------------------------------------
     // Informations contenu dans le head
     $document = 'Flux-Gaming - Actualités ' . $subjects[$flux]->title;
     $meta = $subjects[$flux]->meta_description;
