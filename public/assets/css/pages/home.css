@@ -4,8 +4,13 @@
 /* --------------------------------------------------------------------------------------------------------------------------------- */
 /* DERNIERS ARTICLES */
 
-.mainLink, .mediumLink {
+section {
+    width: 100%;
+}
+
+.mainLink article, .mediumLink article {
     position: relative;
+    width: 100%;
 }
 
 .mainLink img {

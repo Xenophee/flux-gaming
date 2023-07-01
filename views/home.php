@@ -14,7 +14,7 @@
                 <div class="col-12 col-xl-4">
                     <a href="<?= $firstPart[0]->link ?? '' ?>" target="_blank" rel="noopener noreferrer" class="mainLink">
                         <article class="mb-4 mb-xl-0">
-                            <img src="<?= $firstPart[0]->enclosure['url'] ?? '' ?>" alt="Illustration de l'article" class="img-fluid">
+                            <img src="<?= $firstPart[0]->enclosure['url'] ?? '' ?>" alt="" class="img-fluid">
                             <div class="divText d-flex flex-column justify-content-center align-items-center px-3 px-xl-4 py-4">
                                 <h3 class="text-center"><?= $firstPart[0]->title ?? '' ?></h3>
                                 <small class="d-flex justify-content-center pt-2 mt-3 mb-4"><?= $firstPart[0]->date ?? '' ?></small>
@@ -30,7 +30,7 @@
                         if ($key > 0 && $key < 3) { ?>
                             <a href="<?= $item->link ?? '' ?>" target="_blank" rel="noopener noreferrer" class="mediumLink mb-4">
                                 <article>
-                                    <img src="<?= $item->enclosure['url'] ?? '' ?>" alt="Illustration de l'article" class="img-fluid">
+                                    <img src="<?= $item->enclosure['url'] ?? '' ?>" alt="" class="img-fluid">
                                     <div class="divText d-flex flex-column justify-content-center align-items-center py-4">
                                         <h3 class="text-center"><?= $item->title ?? '' ?></h3>
                                         <small class="d-flex justify-content-center pt-2 mt-3"><?= $item->date ?? '' ?></small>
@@ -46,7 +46,7 @@
                 <div class="col-12 col-xl-4">
                     <a href="<?= $firstPart[3]->link ?? '' ?>" target="_blank" rel="noopener noreferrer" class="mainLink">
                         <article class="mt-4 mt-xl-0">
-                            <img src="<?= $firstPart[3]->enclosure['url'] ?? '' ?>" alt="Illustration de l'article" class="img-fluid">
+                            <img src="<?= $firstPart[3]->enclosure['url'] ?? '' ?>" alt="" class="img-fluid">
                             <div class="divText d-flex flex-column justify-content-center align-items-center px-3 px-xl-4 py-4">
                                 <h3 class="text-center"><?= $firstPart[3]->title ?? '' ?></h3>
                                 <small class="d-flex justify-content-center pt-2 mt-3 mb-4"><?= $firstPart[3]->date ?? '' ?></small>
