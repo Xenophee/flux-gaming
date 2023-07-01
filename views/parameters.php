@@ -1,6 +1,6 @@
 <main>
     <div class="container px-0">
-        <section class="pt-5 mx-md-5">
+        <section class="pt-5 px-md-5">
             <h1 class="text-center py-5 mb-5">Paramètres</h1>
 
             <div class="row justify-content-center mx-1 mx-md-0">
