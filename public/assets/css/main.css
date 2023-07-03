@@ -30,6 +30,7 @@
 
 body {
     background-image: var(--background);
+    background-attachment: fixed;
     padding: 0;
     margin: 0;
 }
