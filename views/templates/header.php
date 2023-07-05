@@ -33,7 +33,7 @@
 
                             <!-- ACCUEIL -->
                             <li class="nav-item">
-                                <a class="nav-link px-5 <?php if (basename($_SERVER['PHP_SELF']) == 'home_controller.php') echo ' active'; ?>" aria-current="page" href="../controllers/home_controller.php">Accueil</a>
+                                <a class="nav-link px-5 <?php if (basename($_SERVER['PHP_SELF']) == 'home_controller.php') echo ' active'; ?>" aria-current="page" href="/accueil">Accueil</a>
                             </li>
 
                             <!-- PAGES SPÉCIFIQUES -->
@@ -48,7 +48,7 @@
                         <!-- PARAMÈTRES -->
                         <ul class="navbar-nav justify-content-end flex-grow-1 pe-lg-3">
                             <li class="nav-item">
-                                <a class="nav-link px-5 <?php if (basename($_SERVER['PHP_SELF']) == 'parameters_controller.php') echo ' active'; ?>" href="../controllers/parameters_controller.php"><i class="bi bi-gear"></i></a>
+                                <a class="nav-link px-5 <?php if (basename($_SERVER['PHP_SELF']) == 'parameters_controller.php') echo ' active'; ?>" href="/parametres"><i class="bi bi-gear"></i></a>
                             </li>
                         </ul>
                     </div>

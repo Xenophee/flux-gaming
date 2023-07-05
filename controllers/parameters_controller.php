@@ -78,7 +78,7 @@ try {
             setcookie('articlesNumber', $articlesNumber, time() + (365 * 24 * 3600), '/');
 
             // Renvoi vers la page d'accueil
-            header('location: /controllers/home_controller.php');
+            header('location: /accueil');
             die;
         }
     }
