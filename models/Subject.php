@@ -10,7 +10,7 @@ class Subject
     public string|array $link;
 
 
-    public function extractXml(string $link, int $articlesNumber): array
+    public static function extractXml(string $link, int $articlesNumber): array
     {
         // ----------------------------------------------------------------
         // Possibilité d'utiliser directement cette fonction PHP plutôt que la classe.

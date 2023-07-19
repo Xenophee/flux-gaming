@@ -26,7 +26,7 @@ try {
 
     // ---------------------------------------------------------------------------------
     // Utilisation de la méthode extractXml() de la classe Subject pour récupérer les données à afficher
-    $items = $subjects[$flux]->extractXml($subjects[$flux]->link, $articles);
+    $items = Subject::extractXml($subjects[$flux]->link, $articles);
 
 } catch (\Throwable $th) {
     include_once(__DIR__ . '/../views/templates/header.php');
