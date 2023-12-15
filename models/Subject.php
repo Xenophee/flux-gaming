@@ -31,7 +31,11 @@ class Subject
         // ----------------------------------------------------------------
         // Récupération du nombre d'éléments à exploiter selon le nombre envoyé en paramètre d'entrée de la fonction
         for ($number = 0; $number < $articlesNumber; $number++) {
-            $items[] = $data[$number];
+            if (!is_null($data[$number])) {
+                $items[] = $data[$number];
+            } else {
+                break;
+            }
         }
         // ----------------------------------------------------------------
 
