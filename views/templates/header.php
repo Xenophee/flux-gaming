@@ -40,7 +40,7 @@
                             <?php
                             foreach ($subjects as $key => $value) { ?>
                                 <li class="nav-item">
-                                    <a class="nav-link px-5 <?php if ((basename($_SERVER['PHP_SELF']) == 'articles_controller.php') && (isset($_GET['flux']) && $_GET['flux'] == $key)) echo ' active'; ?>" href="../controllers/articles_controller.php?flux=<?= $key ?>"><?= $subjects[$key]->title ?></a>
+                                    <a class="nav-link px-5 <?php if ((basename($_SERVER['PHP_SELF']) == 'articles_controller.php') && (isset($_GET['flux']) && $_GET['flux'] == $key)) echo ' active'; ?>" href="/actualites/<?= $subjects[$key]->title ?>?flux=<?= $key ?>"><?= $subjects[$key]->title ?></a>
                                 </li>
                             <?php } ?>
                         </ul>
