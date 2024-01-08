@@ -1,7 +1,7 @@
 <?php
 
 require_once(__DIR__ . '/constants.php');
-
+require_once(__DIR__ . './../helpers/functions.php');
 
 // Initialisation des éléments d'affichage selon le cookie ou par défaut en sécurisant les données.
 
