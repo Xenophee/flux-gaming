@@ -21,7 +21,7 @@ try {
     // Utilisation de la méthode extractXml() de la classe Subject pour récupérer les données à afficher
     $firstSection = Subject::extractXml($main->link[0], 8);
     $secondSection = Subject::extractXml($main->link[1], 3);
-    $thirdSection = Subject::extractXml($main->link[2], 3);
+    $thirdSection = Subject::extractXml($main->link[2], 4);
 
     // ---------------------------------------------------------------------------------
     // Séparation des éléments de la première section en deux tableaux pour faciliter l'affichage
