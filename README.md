@@ -8,6 +8,6 @@ Le but du projet était de proposer un agrégateur de contenu sur le thème des 
 
 
 
-Pour accéder à la démo c’est : [ici](https://xenophee.github.io/Flux-Gaming--Demo/)
+Pour accéder au site c’est : [ici](https://flux-gaming.000webhostapp.com)
 
 
