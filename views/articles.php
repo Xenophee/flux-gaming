@@ -2,7 +2,7 @@
     <div class="container px-0">
 
         <!-- GRANDE IMAGE -->
-        <img src="<?= $subjects[$flux]->img ?>" alt="" class="img-fluflux subjectImg">
+        <img src="<?= $subjects[$flux]->img ?>" class="img-fluflux subjectImg" aria-hidden="true">
 
         <section>
             <h1 class="text-center py-5 my-5 mx-xl-5">L'actu des jeux <?= $subjects[$flux]->title ?></h1>

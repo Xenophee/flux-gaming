@@ -6,4 +6,9 @@ RewriteRule ^actualites/([^/]+)$ /controllers/articles_controller.php [L]
 
 RewriteRule ^parametres$ /controllers/parameters_controller.php [L]
 
+
+RewriteRule ^mentions-legales$ /controllers/legal_mentions_controller.php [L]
+
+RewriteRule ^cookies$ /controllers/cookies_controller.php [L]
+
 ErrorDocument 404 /404.php
