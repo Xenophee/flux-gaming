@@ -23,6 +23,7 @@
 
     --special-font: 'Kanit', sans-serif;
     --main-font: 'Noto Serif', serif;
+    --contrast-text: var(--second-color);
 
     --box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     --form-shadow: #7A7AC4 0 0 4px;
